@@ -1,0 +1,42 @@
+//1. Use .push() to add an element at the end of an array. Print the updated array.
+// let arr = ["Apple", "Mango","Banana","Grapes","Orange"];
+// arr.push("Papaya")
+// console.log(arr)
+
+
+// 2.Use .pop() to remove the last element of an array. Print the removed element and updated array.
+// let fruits = ["Apple", "Mango","Banana","Grapes","Orange"];
+// fruits.pop();
+// console.log(fruits)
+
+
+//3. Use .unshift() to add an element at the beginning. Print the new array.
+// let fruits = ["Apple", "Mango","Banana","Grapes","Orange"];
+// fruits.unshift("Papaya");
+// console.log(fruits)
+
+
+// 4.Use .shift() to remove the first element. Print the removed element and the remaining array.
+// let colors = ["Red","Blue","Green","Yellow"];
+// colors.shift();
+// console.log(colors)
+
+
+// 5.Use .slice() to extract the middle 3 elements from a 6-element array without modifying the original.
+// let num = [10,20,30,40,50,60]
+// let mid = num.slice(1,4)
+// console.log(mid)
+// console.log(num)
+
+
+// 6.Use .splice() to remove 2 elements starting from index 1, and insert 2 new values. Print the updated array.
+// let num = [10,20,30,40,50,60]
+// num.splice(0,1,88,99);
+// console.log(num)
+
+
+//7. Concatenate two arrays using .concat() and print the result.
+// let arr1 = [10,20,30];
+// let arr2 = [66,77,88];
+// let newArr = arr1.concat(arr2);
+// console.log(newArr)
